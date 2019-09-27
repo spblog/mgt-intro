@@ -11,7 +11,7 @@ import * as strings from 'HelloWorldWebPartStrings';
 import HelloWorld from './components/HelloWorld';
 import { IHelloWorldProps } from './components/IHelloWorldProps';
 
-import { Providers, SharePointProvider } from '@microsoft/mgt';
+import { Providers, SharePointProvider } from '@microsoft/mgt/dist/commonjs';
 
 
 export interface IHelloWorldWebPartProps {
